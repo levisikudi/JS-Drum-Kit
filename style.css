@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    background-image:url("background.jpg");
+    background-size: cover;
+}
+body{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.key-container{
+    display: flex;
+    min-width: 90vw;
+    justify-content: space-around;
+}
+.key{
+    padding: .5rem 1rem;
+    color: azure;
+    border: .4rem solid black;
+    display: inline;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .4);
+}
+kbd{
+    display: block;
+    font-size: 3rem;
+}
+div span{
+    font-size: .4rem;
+    color: #ffc600;
+    font-size: 1rem;
+}
