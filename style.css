@@ -24,6 +24,7 @@ body{
     color: azure;
     border: .4rem solid black;
     display: inline;
+    width: 6.5rem;
     text-align: center;
     background-color: rgba(0, 0, 0, .4);
 }
