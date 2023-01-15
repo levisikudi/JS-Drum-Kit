@@ -25,7 +25,7 @@ body{
     color: azure;
     border: .4rem solid black;
     display: inline;
-    transition: all .08s ease;
+    transition: all 0.1s ease;
     width: 6.5rem;
     text-align: center;
     background-color: rgba(0, 0, 0, .4);

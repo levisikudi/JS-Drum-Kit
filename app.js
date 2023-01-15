@@ -6,4 +6,18 @@ window.addEventListener('keydown', e =>{
     audio.play()
     key.classList.add('playing')
     console.log(audio);
+   
 })
+
+const keys = document.querySelectorAll('.key')
+console.log(keys);
+
+keys.forEach(el => {
+    el.addEventListener('transitionend', e =>{
+        el.classList.remove('playing')
+    })   
+});
+
+// keys.addEventListener('transitionend', e ={
+    
+// })
